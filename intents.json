@@ -1,0 +1,483 @@
+{"intents": [
+        {"tag": "about",
+         "patterns": ["Who are you","What are you","Who you are?"],
+         "responses": ["I am TARUC Voice Assistance, your bot assistant", "I am TARUC Voice assistance, an Artificial Intelligent assistance"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["What is your name", "what should I call you", "what's your name", "whats ur name"],
+         "responses": ["You can call me TARUC BOT","I'm TARUC BOT","Just call me TARUC BOT"],
+         "context": [""]
+        },
+        {"tag": "user",
+         "patterns": ["who am I","What am I"],
+         "responses": ["If you can talk then definitely you are human"],
+         "context": [""]
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi there","Hey","Halo", "Hello","hi"],
+         "responses": ["Hi there, how can I assist you?"],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["Can you help me?","I need your help","what can you do", "help"],
+         "responses": ["Tell me how can I assist you.","Tell me your problem so that I can help you."],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "Goodbye", "Nice chatting with you, bye", "Exit","Close"],
+         "responses": ["See you next time!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Anytime!", "My pleasure.","You're most welcome!"],
+         "context": [""]
+        },
+        {"tag": "course",
+         "patterns": ["What IT course does TARUC provide?","course provide","course"],
+         "responses": ["Diploma or Degree? Please tell me specifically."],
+         "context": [""]
+        },
+          {"tag": "intake",
+         "patterns": ["When is the intake?","intake","start semester"],
+         "responses": ["Intake will be on January and November currently."],
+         "context": [""]
+        },
+          {"tag": "exam",
+         "patterns": ["When is my examination date?","When is my exam","exam","Where can i check my exam date","exam date"],
+         "responses": ["Sorry I couldn't help you with that. Please check it in your intranet or TARUC App 'Examination Timetable'."],
+         "context": [""]
+        },
+          {"tag": "timetable",
+         "patterns": ["Where is my timetable","timetable","Where can i check my timetable?"],
+         "responses": ["Sorry I couldn't help you with that. Please check it in your intranet or TARUC App 'Class Timetable'."],
+         "context": [""]
+        },
+          {"tag": "result",
+         "patterns": ["Where is my result","result","Where can i check my exam result?","exam result"],
+         "responses": ["Sorry I couldn't help you with that. Please check it in your intranet or TARUC App 'Examination Result'."],
+         "context": [""]
+        },
+        {"tag": "search_diploma_course_by_D1",
+         "patterns": ["D1","Diploma in Computer Science","DCS","DICS"],
+         "responses": ["Course Name : Diploma in Computer Science \n\nEntry requirements \n ------------------- \n SPM \n ------- \n 3 Credits in the relevant subjects \n\n O Level \n ------- \n 3 Grade C in the relevant subjects \n\n UEC \n ------- \n 3 Grade B in the relevant subjects \n\n **Compulsory subjects**: \n -------------------------------- \n (i) SPM Credit in Additional Mathematics / O Level Grade C in Mathematics-Additional / UEC Grade B in one mathematics subject \n (ii) SPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language \n\n Certificate \n ---------- \n Relevant Certificate accredited by MQA \n\n OR \n\n Relevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_diploma_course_by_D2",
+         "patterns": ["D2","Diploma in Data Science","DDS","DIDS"],
+         "responses": ["Course Name : Diploma in Data Science \n\nEntry requirements \n ------------------- \n SPM \n ------- \n 3 Credits in the relevant subjects \n\n O Level \n ------- \n 3 Grade C in the relevant subjects \n\n UEC \n ------- \n 3 Grade B in the relevant subjects \n\n **Compulsory subjects**: \n -------------------------------- \n (i) SPM Credit in Additional Mathematics / O Level Grade C in Mathematics-Additional / UEC Grade B in one mathematics subject \n (ii) SPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language \n\n Certificate \n ---------- \n Relevant Certificate accredited by MQA \n\n OR \n\n Relevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_diploma_course_by_D3",
+         "patterns": ["D3","Diploma in Information Systems","DIS","DIIS"],
+         "responses": ["Course Name : Diploma in Information Systems \n\nEntry requirements \n ------------------- \n SPM \n ------- \n 3 Credits in the relevant subjects \n\n O Level \n ------- \n 3 Grade C in the relevant subjects \n\n UEC \n ------- \n 3 Grade B in the relevant subjects \n\n **Compulsory subjects**: \n -------------------------------- \n (i) SPM Credit / O Level Grade C in Mathematics / UEC Grade B in one mathematics subject \n (ii) SPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language \n\n Certificate \n ---------- \n Relevant Certificate accredited by MQA \n\n OR \n\n Relevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_diploma_course_by_D4",
+         "patterns": ["D4","Diploma in Information Technology","DIT","DIIT"],
+         "responses": ["Course Name : Diploma in Information Technology \n\nEntry requirements \n ------------------- \n SPM \n ------- \n 3 Credits in the relevant subjects \n\n O Level \n ------- \n 3 Grade C in the relevant subjects \n\n UEC \n ------- \n 3 Grade B in the relevant subjects \n\n **Compulsory subjects**: \n -------------------------------- \n (i) SPM Credit / O Level Grade C in Mathematics / UEC Grade B in one mathematics subject \n (ii) SPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language \n\n Certificate \n ---------- \n Relevant Certificate accredited by MQA \n\n OR \n\n Relevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_diploma_course_by_D5",
+         "patterns": ["D5","Diploma in Software Engineering","DSE","DISE"],
+         "responses": ["Course Name : Diploma in Software Engineering \n\nEntry requirements \n ------------------- \n SPM \n ------- \n 3 Credits in the relevant subjects \n\n O Level \n ------- \n 3 Grade C in the relevant subjects \n\n UEC \n ------- \n 3 Grade B in the relevant subjects \n\n **Compulsory subjects**: \n -------------------------------- \n (i) SPM Credit / O Level Grade C in Mathematics / UEC Grade B in one mathematics subject \n (ii) SPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n Certificate \n ---------- \n Relevant Certificate accredited by MQA \n\n OR \n\n Relevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_D1_by_spm",
+         "patterns": ["spm requirement for diploma in computer science","diploma in computer science spm requirement","D1 spm"],
+         "responses": ["Course Name : Diploma in Computer Science \n\nEntry requirements(SPM) \n----------------------------- \n3 Credits in the relevant subjects\n\nCompulsory subjects: \n -------------------------------- \n(i)  SPM Credit in Additional Mathematics \n(ii) SPM Pass in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma."],
+         "context": [""]
+        },
+        {"tag": "search_D1_by_olevel",
+         "patterns": ["o level requirement for diploma in computer science","diploma in computer science o level","D1 o level"],
+         "responses": ["Course Name : Diploma in Computer Science \n\nEntry requirements(O Level) \n-------------------------------- \n3 Grade C in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i)  O Level Grade C in Mathematics-Additional \n(ii) O Level Grade E (Pass) in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D1_by_uec",
+         "patterns": ["uec requirement for diploma in computer science","diploma in computer science uec requirement","D1 uec"],
+         "responses": ["Course Name : Diploma in Computer Science \n\nEntry requirements(UEC) \n-------------------------------- \n3 Grade B in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i) UEC Grade B in one mathematics subject \n(ii) UEC Grade C in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D1_by_certificate",
+         "patterns": ["certificate requirement for diploma in computer science","diploma in computer science certificate requirement","D1 certificate"],
+         "responses": ["Course Name : Diploma in Computer Science \n\nEntry requirements(Certificate) \n------------------- \nRelevant Certificate accredited by MQA \n\n OR \n\nRelevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_D2_by_spm",
+         "patterns": ["spm requirement for diploma in data science","diploma in data science spm requirement","D2 spm"],
+         "responses": ["Course Name : Diploma in Data Science \n\nEntry requirements(SPM) \n----------------------------- \n3 Credits in the relevant subjects\n\nCompulsory subjects: \n -------------------------------- \n(i)  SPM Credit in Additional Mathematics \n(ii) SPM Pass in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma."],
+         "context": [""]
+        },
+        {"tag": "search_D2_by_olevel",
+         "patterns": ["o level requirement for diploma in data science","diploma in data science o level requirement","D2 o level"],
+         "responses": ["Course Name : Diploma in Data Science \n\nEntry requirements(O Level) \n-------------------------------- \n3 Grade C in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i)  O Level Grade C in Mathematics-Additional \n(ii) O Level Grade E (Pass) in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D2_by_uec",
+         "patterns": ["uec requirement for diploma in data science","diploma in data science uec requirement","D2 uec"],
+         "responses": ["Course Name : Diploma in Data Science \n\nEntry requirements(UEC) \n-------------------------------- \n3 Grade B in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i) UEC Grade B in one mathematics subject \n(ii) UEC Grade C in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D2_by_certificate",
+         "patterns": ["certificate requirement for diploma in data science","diploma in data science certificate requirement","D2 certificate"],
+         "responses": ["Course Name : Diploma in Data Science \n\nEntry requirements(Certificate) \n------------------- \nRelevant Certificate accredited by MQA \n\n OR \n\nRelevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_D3_by_spm",
+         "patterns": ["spm requirement for diploma in information systems","diploma in information systems spm requirement","D3 spm"],
+         "responses": ["Course Name : Diploma in Information Systems \n\nEntry requirements(SPM) \n----------------------------- \n3 Credits in the relevant subjects\n\nCompulsory subjects: \n -------------------------------- \n(i)  SPM Credit in Mathematics \n(ii) SPM Pass in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma."],
+         "context": [""]
+        },
+        {"tag": "search_D3_by_olevel",
+         "patterns": ["o level requirement for diploma in information systems","diploma in information systems o level requirement","D3 o level"],
+         "responses": ["Course Name : Diploma in Information Systems \n\nEntry requirements(O Level) \n-------------------------------- \n3 Grade C in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i)  O Level Grade C in Mathematics \n(ii) O Level Grade E (Pass) in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D3_by_uec",
+         "patterns": ["uec requirement for diploma in information systems","diploma in information systems uec requirement","D3 uec"],
+         "responses": ["Course Name : Diploma in Information Systems \n\nEntry requirements(UEC) \n-------------------------------- \n3 Grade B in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i) UEC Grade B in one mathematics subject \n(ii) UEC Grade C in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D3_by_certificate",
+         "patterns": ["certificate requirement for diploma in information systems","diploma in information systems certificate requirement","D3 certificate"],
+         "responses": ["Course Name : Diploma in Information Systems \n\nEntry requirements(Certificate) \n------------------- \nRelevant Certificate accredited by MQA \n\n OR \n\nRelevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_D4_by_spm",
+         "patterns": ["spm requirement for diploma in information technology","diploma in information technology spm requirement","D4 spm"],
+         "responses": ["Course Name : Diploma in Information Technology \n\nEntry requirements(SPM) \n----------------------------- \n3 Credits in the relevant subjects\n\nCompulsory subjects: \n -------------------------------- \n(i)  SPM Credit in Mathematics \n(ii) SPM Pass in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma."],
+         "context": [""]
+        },
+        {"tag": "search_D4_by_olevel",
+         "patterns": ["o level requirement for diploma in information technology","diploma in information technology o level requirement","D4 o level"],
+         "responses": ["Course Name : Diploma in Information Technology \n\nEntry requirements(O Level) \n-------------------------------- \n3 Grade C in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i)  O Level Grade C in Mathematics \n(ii) O Level Grade E (Pass) in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D4_by_uec",
+         "patterns": ["uec requirement for diploma in information technology","diploma in information technology uec requirement","D4 uec"],
+         "responses": ["Course Name : Diploma in Information Technology \n\nEntry requirements(UEC) \n-------------------------------- \n3 Grade B in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i) UEC Grade B in one mathematics subject \n(ii) UEC Grade C in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D4_by_certificate",
+         "patterns": ["certificate requirement for diploma in information technology","diploma in information technology certificate requirement","D4 certificate"],
+         "responses": ["Course Name : Diploma in Information Technology \n\nEntry requirements(Certificate) \n------------------- \nRelevant Certificate accredited by MQA \n\n OR \n\nRelevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_D5_by_spm",
+         "patterns": ["spm requirement for diploma in software engineering","diploma in software engineering spm requirement","D5 spm"],
+         "responses": ["Course Name : Diploma in Software Engineering \n\nEntry requirements(SPM) \n----------------------------- \n3 Credits in the relevant subjects\n\nCompulsory subjects: \n -------------------------------- \n(i)  SPM Credit in Mathematics \n(ii) SPM Pass in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma."],
+         "context": [""]
+        },
+        {"tag": "search_D5_by_olevel",
+         "patterns": ["o level requirement for diploma in software engineering","diploma in software engineering o level requirement","D5 o level"],
+         "responses": ["Course Name : Diploma in Software Engineering \n\nEntry requirements(O Level) \n-------------------------------- \n3 Grade C in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i)  O Level Grade C in Mathematics \n(ii) O Level Grade E (Pass) in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D5_by_uec",
+         "patterns": ["uec requirement for diploma in software engineering","diploma in software engineering uec requirement","D5 uec"],
+         "responses": ["Course Name : Diploma in Software Engineering \n\nEntry requirements(UEC) \n-------------------------------- \n3 Grade B in the relevant subjects\n\n**Compulsory subjects**: \n -------------------------------- \n(i) UEC Grade B in one mathematics subject \n(ii) UEC Grade C in English Language** \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC"],
+         "context": [""]
+        },
+        {"tag": "search_D5_by_certificate",
+         "patterns": ["certificate requirement for diploma in software engineering","diploma in software engineering certificate requirement","D5 certificate"],
+         "responses": ["Course Name : Diploma in Software Engineering \n\nEntry requirements(Certificate) \n------------------- \nRelevant Certificate accredited by MQA \n\n OR \n\nRelevant Skilled/Technical/Vocational Certificate recognised by the Malaysian Government"],
+         "context": [""]
+        },
+        {"tag": "search_degree_course_by_bd1",
+         "patterns": ["bd1","Bachelor in Management Mathematics with Computing","BMM","BIMM","bachelor of science","management mathematics"],
+         "responses": [ "Course Name : Bachelor of Science (Honours) in Management Mathematics with Computing \n\nEntry requirements \n------------------- \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(SAM) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit / O Level Grade C in Mathematics / UEC Grade B in one mathematics subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(TARUC) \nFoundation in Science (Track A) OR Diploma in Computer Science \n\n(Other IHL) \nRelevant Foundation / Diploma acredited by MQA" ],
+         "context": [""]        
+        },
+        {"tag": "search_degree_course_by_bd2",
+         "patterns": ["bd2","Bachelor in Interactive Software Technology"," ","interactive software technology","software technology"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Interactive Software Technology \n\nEntry requirements \n------------------- \n(i) \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(SAM) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit in Additional Mathematics / O Level Grade C in Mathematics-Additional / UEC Grade B in one mathematics subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(ii) \n\n(STPM) \nGrade C in one mathematics and one science / ICT subject (Science Stream) \n\n(A Level) \nGrade C in one mathematics and one science / ICT subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(iii) \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(ATAR) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit / O Level Grade C in Mathematics and one science / technology / engineering subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n(TARUC) \nFoundation in Computing (Track A) OR Relevant Diploma (with minimum CGPA 2.5000)^ \n\n(Other IHL) \nRelevant Foundation accredited by MQA OR Relevant Diploma (with minimum CGPA 2.5000)^ accredited by MQA" ],
+         "context": [""]        
+        },
+        {"tag": "search_degree_course_by_bd3",
+         "patterns": ["bd3","Bachelor in Software Engineering","BSE"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Software Engineering \n\nEntry requirements \n------------------- \n(i) \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(SAM) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit in Additional Mathematics / O Level Grade C in Mathematics-Additional / UEC Grade B in one mathematics subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(ii) \n\n(STPM) \nGrade C in one mathematics and one science / ICT subject (Science Stream) \n\n(A Level) \nGrade C in one mathematics and one science / ICT subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(iii) \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(ATAR) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit / O Level Grade C in Mathematics and one science / technology / engineering subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n(TARUC) \nFoundation in Computing (Track A) OR Relevant Diploma (with minimum CGPA 2.5000)^ \n\n(Other IHL) \nRelevant Foundation accredited by MQA OR Relevant Diploma (with minimum CGPA 2.5000)^ accredited by MQA" ],
+         "context": [""]        
+        },
+        {"tag": "search_degree_course_by_bd4",
+         "patterns": ["bd4","Bachelor in Data Science","BDS"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Data Science \n\nEntry requirements \n------------------- \n(i) \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(SAM) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit in Additional Mathematics / O Level Grade C in Mathematics-Additional / UEC Grade B in one mathematics subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(ii) \n\n(STPM) \nGrade C in one mathematics and one science / ICT subject (Science Stream) \n\n(A Level) \nGrade C in one mathematics and one science / ICT subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(iii) \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(ATAR) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit / O Level Grade C in Mathematics and one science / technology / engineering subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n(TARUC) \nFoundation in Computing (Track A) OR Relevant Diploma (with minimum CGPA 2.5000)^ \n\n(Other IHL) \nRelevant Foundation accredited by MQA OR Relevant Diploma (with minimum CGPA 2.5000)^ accredited by MQA" ],
+         "context": [""]        
+        },
+        {"tag": "search_degree_course_by_bd5",
+         "patterns": ["bd5","Bachelor in Enterprise Information Systems","BEIS","EIS"],
+         "responses": [ "Course Name : Bachelor of Information Systems (Honours) in Enterprise Information Systems \n\nEntry requirements \n------------------- \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(SAM) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit / O Level Grade C in Mathematics / UEC Grade B in one mathematics subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(TARUC) \nFoundation in Computing (Track B) \n\nOR \n\nDiploma in Science(Business Information Systems)(with minimum CGPA 2.5000)^ \n\nOR \n\nDiploma in Information Systems(ICT Applications)(with minimum CGPA 2.5000)^ \n\n(Other IHL) \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma(with minimum VGPA 2.5000)^ accredited by MQA"],
+         "context": [""]        
+        },
+        {"tag": "search_degree_course_by_bd6",
+         "patterns": ["bd6","Bachelor in Information Security","BIS"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Security \n\nEntry requirements \n------------------- \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(SAM) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit / O Level Grade C in Mathematics / UEC Grade B in one mathematics subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(TARUC) \nFoundation in Computing (Track B) OR Relevant Diploma(with minimum CGPA 2.5000)^ \n\n(Other IHL) \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma(with minimum VGPA 2.5000)^ accredited by MQA"],
+         "context": [""]        
+        },
+        {"tag": "search_degree_course_by_bd7",
+         "patterns": ["bd7","Bachelor in Internet Technology","BIT"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Internet Technology \n\nEntry requirements \n------------------- \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(SAM) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit / O Level Grade C in Mathematics / UEC Grade B in one mathematics subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(TARUC) \nFoundation in Computing (Track B) OR Relevant Diploma(with minimum CGPA 2.5000)^ \n\n(Other IHL) \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma(with minimum VGPA 2.5000)^ accredited by MQA"],
+         "context": [""]        
+        },
+        {"tag": "search_degree_course_by_bd8",
+         "patterns": ["bd8","Bachelor in Software Systems Development","BSSD"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Software Systems Development \n\nEntry requirements \n------------------- \n\n(STPM) \nGrade C in 2 relevant subjects \n\n(A Level) \nGrade C in 2 relevant subjects \n\n(SAM) \nATAR 70 and minimum Grade B in one mathematics subject \n\n(UEC) \nGrade B in 5 relevant subjects \n\nAND \n\nSPM Credit / O Level Grade C in Mathematics / UEC Grade B in one mathematics subject \n\nAND \n\nSPM Pass / O Level Grade E (Pass) / UEC Grade C in English Language** \n\n(TARUC) \nFoundation in Computing (Track B) OR Diploma in Science(Information Systems Engineering)(with minimum CGPA 2.5000)^ \n\nOR \n\nDiploma in Information Technology(Mobile Application Development)(with minimum CGPA 2.5000)^ \n\n(Other IHL) \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma(with minimum VGPA 2.5000)^ accredited by MQA"],
+         "context": [""]        
+        },
+        {"tag": "search_bd1_by_stpm",
+         "patterns": ["stpm requirement  for bachelor in Management Mathematics with Computing","bachelor in Management Mathematics with Computing stpm requirement","bd1 stpm"],
+         "responses": [ "Course Name : Bachelor of Science (Honours) in Management Mathematics with Computing \n\nEntry requirements(STPM) \n-------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in one mathematics subject\n\nAND \n\nSPM Pass in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma. \nc)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd1_by_alevel",
+         "patterns": ["a level requirement  for bachelor in Management Mathematics with Computing","bachelor in Management Mathematics with Computing a level requirement","bd1 a level"],
+         "responses": [ "Course Name : Bachelor of Science (Honours) in Management Mathematics with Computing \n\nEntry requirements(A Level) \n---------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics\n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd1_by_sam",
+         "patterns": ["sam requirement  for bachelor in Management Mathematics with Computing","bachelor in Management Mathematics with Computing sam requirement","bd1 sam"],
+         "responses": [ "Course Name : Bachelor of Science (Honours) in Management Mathematics with Computing \n\nEntry requirements(SAM) \n---------------------------------- \nATAR 70 and minimum Grade B in one mathematics subject \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd1_by_uec",
+         "patterns": ["uec requirement  for bachelor in Management Mathematics with Computing","bachelor in Management Mathematics with Computing uec requirement","bd1 uec"],
+         "responses": [ "Course Name : Bachelor of Science (Honours) in Management Mathematics with Computing \n\nEntry requirements(UEC) \n---------------------------------- \nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade B in one mathematics subject \n\nAND \n\nUEC Grade C in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd1_by_taruc",
+         "patterns": ["taruc requirement for bachelor in Management Mathematics with Computing","bachelor in Management Mathematics with Computing taruc requirement","bd1 taruc"],
+         "responses": [ "Course Name : Bachelor of Science (Honours) in Management Mathematics with Computing \n\nEntry requirements(TAR UC) \n---------------------------------- \nFoundation in Science (Track A) OR Diploma in Computer Science \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd1_by_otherIHL",
+         "patterns": ["other ihl requirement for bachelor in Management Mathematics with Computing","bachelor in Management Mathematics with Computing other ihl requirement","bd1 other"],
+         "responses": [ "Course Name : Bachelor of Science (Honours) in Management Mathematics with Computing \n\nEntry requirements(Other IHL) \n------------------------------------- \nRelevant Foundation / Diploma accredited by MQA \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \nb)Equivalent qualifications/qualifications from other Institution of Higher learning (IHL) will be considered on a case-by-case basis. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd2_course_by_stpm",
+         "patterns": ["stpm requirement for bachelor in interactive software technology","bachelor in interactive software technology stpm requirement","bd2 stpm"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Interactive Software Technology \n\nEntry requirements(STPM) \n------------------------------- \n(i) \n\nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in Additional Mathematics \n\nAND \n\nSPM Pass in English Language** \n\n(ii) \n\nGrade C in one mathematics and one science / ICT subject (Science Stream) \n\nAND \n\nSPM Pass in English Language** \n\n(iii) \n\nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in Mathematics and one science / technology / engineering subject \n\nAND \n\nSPM Pass in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma. \nc)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd2_course_by_aLevel",
+         "patterns": ["a level requirement for bachelor in interactive software technology","bachelor in interactive software technology a level requirement","bd2 a level"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Interactive Software Technology \n\nEntry requirements(A Level) \n----------------------------------- \n(i) \n\nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics-Additional \n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n(ii) \n\nGrade C in one mathematics and one science / ICT subject \n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n(iii) \n\nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics and one science / technology / engineering subject \n\nAND \n\nO Level Grade E (Pass) in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma" ],
+         "context": [""]        
+        },
+        {"tag": "search_bd2_course_by_sam",
+         "patterns": ["sam requirement for bachelor in interactive software technology","bachelor in interactive software technology sam level requirement","bd2 sam"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Interactive Software Technology \n\nEntry requirements(SAM) \n----------------------------- \nATAR 70 and minimum Grade B in one mathematics subject \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma" ],
+         "context": [""]        
+        },
+        {"tag": "search_bd2_course_by_uec",
+         "patterns": ["uec requirement for bachelor in interactive software technology","bachelor in interactive software technology uec level requirement","bd2 uec"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Interactive Software Technology \n\nEntry requirements(UEC) \n------------------------------- \n(i) \n\nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade B in one mathematics subject \n\nAND \n\nUEC Grade C in English Language** \n\n(ii) \n\nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade C in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd2_by_taruc",
+         "patterns": ["taruc requirement for bachelor in interactive software technology","bachelor in interactive software technology taruc requirement","bd2 taruc"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Interactive Software Technology \n\nEntry requirements(TAR UC) \n---------------------------------- \nFoundation in Computing (Track A) OR Relevant Diploma(with minimum CGPA 2.5000)^ \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd2_by_otherIHL",
+         "patterns": ["other ihl requirement for bachelor in interactive software technology","bachelor in interactive software technology other ihl requirement","bd2 other"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Interactive Software Technology \n\nEntry requirements(Other IHL) \n------------------------------------- \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma(with minimum CGPA 2.5000)^ accredited by MQA \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \nb)Equivalent qualifications/qualifications from other Institution of Higher learning (IHL) will be considered on a case-by-case basis. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd3_course_by_stpm",
+         "patterns": ["stpm requirement for bachelor in software engineering","bachelor in software engineering stpm requirement","bd3 stpm"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Software Engineering \n\nEntry requirements(STPM) \n------------------------------- \n(i) \n\nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in Additional Mathematics \n\nAND \n\nSPM Pass in English Language** \n\n(ii) \n\nGrade C in one mathematics and one science / ICT subject (Science Stream) \n\nAND \n\nSPM Pass in English Language** \n\n(iii) \n\nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in Mathematics and one science / technology / engineering subject \n\nAND \n\nSPM Pass in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma. \nc)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd3_course_by_aLevel",
+         "patterns": ["a level requirement for bachelor in software engineering","bachelor in software engineering a level requirement","bd3 a level"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Software Engineering \n\nEntry requirements(A Level) \n----------------------------------- \n(i) \n\nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics-Additional \n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n(ii) \n\nGrade C in one mathematics and one science / ICT subject \n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n(iii) \n\nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics and one science / technology / engineering subject \n\nAND \n\nO Level Grade E (Pass) in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma" ],
+         "context": [""]        
+        },
+        {"tag": "search_bd3_course_by_sam",
+         "patterns": ["sam requirement for bachelor in software engineering","bachelor in software engineering sam requirement","bd3 sam"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Software Engineering \n\nEntry requirements(SAM) \n----------------------------- \nATAR 70 and minimum Grade B in one mathematics subject \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma" ],
+         "context": [""]        
+        },
+        {"tag": "search_bd3_course_by_uec",
+         "patterns": ["uec requirement for bachelor in software engineering","bachelor in software engineering uec requirement","bd3 uec"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Software Engineering \n\nEntry requirements(UEC) \n------------------------------- \n(i) \n\nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade B in one mathematics subject \n\nAND \n\nUEC Grade C in English Language** \n\n(ii) \n\nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade C in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd3_by_taruc",
+         "patterns": ["taruc requirement for bachelor in software engineering","bachelor in software engineering taruc requirement","bd3 taruc"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Software Engineering \n\nEntry requirements(TAR UC) \n---------------------------------- \nFoundation in Computing (Track A) OR Relevant Diploma(with minimum CGPA 2.5000)^ \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd3_by_otherIHL",
+         "patterns": ["other ihl requirement for bachelor in software engineering","bachelor in software engineering ihl requirement","bd3 other"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Software Engineering \n\nEntry requirements(Other IHL) \n------------------------------------- \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma(with minimum CGPA 2.5000)^ accredited by MQA \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \nb)Equivalent qualifications/qualifications from other Institution of Higher learning (IHL) will be considered on a case-by-case basis. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd4_course_by_stpm",
+         "patterns": ["stpm requirement for bachelor in data science","bachelor in data science stpm requirement","bd4 stpm"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Data Science \n\nEntry requirements(STPM) \n------------------------------- \n(i) \n\nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in Additional Mathematics \n\nAND \n\nSPM Pass in English Language** \n\n(ii) \n\nGrade C in one mathematics and one science / ICT subject (Science Stream) \n\nAND \n\nSPM Pass in English Language** \n\n(iii) \n\nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in Mathematics and one science / technology / engineering subject \n\nAND \n\nSPM Pass in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma. \nc)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd4_course_by_aLevel",
+         "patterns": ["a level requirement for bachelor in data science","bachelor in data science a level requirement","bd4 a level"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Data Science \n\nEntry requirements(A Level) \n----------------------------------- \n(i) \n\nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics-Additional \n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n(ii) \n\nGrade C in one mathematics and one science / ICT subject \n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n(iii) \n\nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics and one science / technology / engineering subject \n\nAND \n\nO Level Grade E (Pass) in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma" ],
+         "context": [""]        
+        },
+        {"tag": "search_bd4_course_by_sam",
+         "patterns": ["sam requirement for bachelor in data science","bachelor in data science sam requirement","bd4 sam"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Data Science \n\nEntry requirements(SAM) \n----------------------------- \nATAR 70 and minimum Grade B in one mathematics subject \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma" ],
+         "context": [""]        
+        },
+        {"tag": "search_bd4_course_by_uec",
+         "patterns": ["uec requirement for bachelor in data science","bachelor in data science uec requirement","bd4 uec"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Data Science \n\nEntry requirements(UEC) \n------------------------------- \n(i) \n\nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade B in one mathematics subject \n\nAND \n\nUEC Grade C in English Language** \n\n(ii) \n\nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade C in English Language** \n\nAND \n\nGrade C in AMMS0204 Mathematics conducted by TAR UC \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd4_by_taruc",
+         "patterns": ["taruc requirement for bachelor in data science","bachelor in data science taruc requirement","bd4 taruc"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Data Science \n\nEntry requirements(TAR UC) \n---------------------------------- \nFoundation in Computing (Track A) OR Relevant Diploma(with minimum CGPA 2.5000)^ \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd4_by_otherIHL",
+         "patterns": ["other ihl requirement for bachelor in data science","bachelor in data science other ihl requirement","bd4 other"],
+         "responses": [ "Course Name : Bachelor of Computer Science (Honours) in Data Science \n\nEntry requirements(Other IHL) \n------------------------------------- \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma(with minimum CGPA 2.5000)^ accredited by MQA \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \nb)Equivalent qualifications/qualifications from other Institution of Higher learning (IHL) will be considered on a case-by-case basis. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd5_by_stpm",
+         "patterns": ["stpm requirement for bachelor in enterprise information systems","bachelor in enterprise information systems stpm requirement","bd5 stpm"],
+         "responses": [ "Course Name : Bachelor of Information Systems (Honours) in Enterprise Information Systems \n\nEntry requirements(STPM) \n-------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in one mathematics subject\n\nAND \n\nSPM Pass in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma. \nc)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd5_by_alevel",
+         "patterns": ["a level requirement  for bachelor in enterprise information systems","bachelor in enterprise information systems a level requirement","bd5 a level"],
+         "responses": [ "Course Name : Bachelor of Information Systems (Honours) in Enterprise Information Systems \n\nEntry requirements(A Level) \n---------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics\n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd5_by_sam",
+         "patterns": ["sam requirement  for bachelor in enterprise information systems","bachelor in enterprise information systems sam requirement","bd5 sam"],
+         "responses": [ "Course Name : Bachelor of Information Systems (Honours) in Enterprise Information Systems \n\nEntry requirements(SAM) \n---------------------------------- \nATAR 70 and minimum Grade B in one mathematics subject \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd5_by_uec",
+         "patterns": ["uec requirement  for bachelor in enterprise information systems","bachelor in enterprise information systems uec requirement","bd5 uec"],
+         "responses": [ "Course Name : Bachelor of Information Systems (Honours) in Enterprise Information Systems \n\nEntry requirements(UEC) \n---------------------------------- \nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade B in one mathematics subject \n\nAND \n\nUEC Grade C in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd5_by_taruc",
+         "patterns": ["taruc requirement for bachelor in enterprise information systems","bachelor in enterprise information systems taruc requirement","bd5 taruc"],
+         "responses": [ "Course Name : Bachelor of Information Systems (Honours) in Enterprise Information Systems \n\nEntry requirements(TAR UC) \n---------------------------------- \nFoundation in Computing (Track B) \n\nOR\n\nDiploma in Science (Business Information Systems)(with minimum CGPA 2.5000)^ \n\nOR\n\nDiploma in Information Systems(ICT Applications)(with minimum CGPA 2.5000)^ \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd5_by_otherIHL",
+         "patterns": ["other ihl requirement for bachelor in enterprise information systems","bachelor in enterprise information systems other ihl requirement","bd5 other"],
+         "responses": [ "Course Name : Bachelor of Information Systems (Honours) in Enterprise Information Systems \n\nEntry requirements(Other IHL) \n------------------------------------- \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma (with minimum CGPA 2.5000)^ accredited by MQA \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \nb)Equivalent qualifications/qualifications from other Institution of Higher learning (IHL) will be considered on a case-by-case basis. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd6_by_stpm",
+         "patterns": ["stpm requirement  for bachelor in information security","bachelor in information security stpm requirement","bd6 stpm"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Security \n\nEntry requirements(STPM) \n-------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in one mathematics subject\n\nAND \n\nSPM Pass in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma. \nc)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd6_by_alevel",
+         "patterns": ["a level requirement  for bachelor in information security","bachelor in information security a level requirement","bd6 a level"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Security \n\nEntry requirements(A Level) \n---------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics\n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd6_by_sam",
+         "patterns": ["sam requirement  for bachelor in information security","bachelor in information security sam requirement","bd6 sam"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Security \n\nEntry requirements(SAM) \n---------------------------------- \nATAR 70 and minimum Grade B in one mathematics subject \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd6_by_uec",
+         "patterns": ["uec requirement  for bachelor in information security","bachelor in information security uec requirement","bd6 uec"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Security \n\nEntry requirements(UEC) \n---------------------------------- \nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade B in one mathematics subject \n\nAND \n\nUEC Grade C in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd6_by_taruc",
+         "patterns": ["taruc requirement for bachelor in information security","bachelor in information security taruc requirement","bd6 taruc"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Security \n\nEntry requirements(TAR UC) \n---------------------------------- \nFoundation in Computing (Track B) \n\nOR\n\nRelevant Diploma (with minimum CGPA 2.5000)^ \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd6_by_otherIHL",
+         "patterns": ["other ihl requirement for bachelor in information security","bachelor in information security other ihl requirement","bd6 other"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Security \n\nEntry requirements(Other IHL) \n------------------------------------- \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma (with minimum CGPA 2.5000)^ accredited by MQA \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \nb)Equivalent qualifications/qualifications from other Institution of Higher learning (IHL) will be considered on a case-by-case basis. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd7_by_stpm",
+         "patterns": ["stpm requirement for bachelor in information technology","bachelor in information technology stpm requirement","bd7 stpm"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Technology \n\nEntry requirements(STPM) \n-------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in one mathematics subject\n\nAND \n\nSPM Pass in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma. \nc)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd7_by_alevel",
+         "patterns": ["a level requirement for bachelor in information technology","bachelor in information technology a level requirement","bd7 a level"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Technology \n\nEntry requirements(A Level) \n---------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics\n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd7_by_sam",
+         "patterns": ["sam requirement for bachelor in information technology","bachelor in information technology sam requirement","bd7 sam"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Technology \n\nEntry requirements(SAM) \n---------------------------------- \nATAR 70 and minimum Grade B in one mathematics subject \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd7_by_uec",
+         "patterns": ["uec requirement for bachelor in information technology","bachelor in information technology uec requirement","bd7 uec"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Technology \n\nEntry requirements(UEC) \n---------------------------------- \nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade B in one mathematics subject \n\nAND \n\nUEC Grade C in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd7_by_taruc",
+         "patterns": ["taruc requirement for bachelor in information technology","bachelor in information technology taruc requirement","bd7 taruc"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Technology \n\nEntry requirements(TAR UC) \n---------------------------------- \nFoundation in Computing (Track B) \n\nOR\n\nRelevant Diploma (with minimum CGPA 2.5000)^ \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd7_by_otherIHL",
+         "patterns": ["other ihl requirement for bachelor in information technology","bachelor in information technology other ihl requirement","bd7 other"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Information Technology \n\nEntry requirements(Other IHL) \n------------------------------------- \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma (with minimum CGPA 2.5000)^ accredited by MQA \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \nb)Equivalent qualifications/qualifications from other Institution of Higher learning (IHL) will be considered on a case-by-case basis. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd8_by_stpm",
+         "patterns": ["stpm requirement for bachelor in software systems development","bachelor in software systems development stpm requirement","bd8 stpm"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Software Systems Development \n\nEntry requirements(STPM) \n-------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nSPM Credit in one mathematics subject\n\nAND \n\nSPM Pass in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)SPM holders must have at least a pass in Bahasa Melayu AND SPM holders from 2013 onwards must have at least a pass in Sejarah. \nb)Students without a credit in SPM Bahasa Melayu are required to pass Bahasa Kebangsaan A before the award of Diploma. \nc)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd8_by_alevel",
+         "patterns": ["a level requirement for bachelor in software systems development","bachelor in software systems development a level requirement","bd8 a level"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Software Systems Development \n\nEntry requirements(A Level) \n---------------------------------- \nGrade C in 2 relevant subjects \n\nAND \n\nO Level Grade C in Mathematics\n\nAND \n\nO Level Grade E (Pass) in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd8_by_sam",
+         "patterns": ["sam requirement for bachelor in software systems development","bachelor in software systems development sam requirement","bd8 sam"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Software Systems Development \n\nEntry requirements(SAM) \n---------------------------------- \nATAR 70 and minimum Grade B in one mathematics subject \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd8_by_uec",
+         "patterns": ["uec requirement for bachelor in software systems development","bachelor in software systems development uec requirement","bd8 uec"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Software Systems Development \n\nEntry requirements(UEC) \n---------------------------------- \nGrade B in 5 relevant subjects \n\nAND \n\nUEC Grade B in one mathematics subject \n\nAND \n\nUEC Grade C in English Language** \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd8_by_taruc",
+         "patterns": ["taruc requirement for bachelor in software systems development","bachelor in software systems development taruc requirement","bd8 taruc"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Software Systems Development \n\nEntry requirements(TAR UC) \n---------------------------------- \nFoundation in Computing (Track B) \n\nOR\n\nDiploma in Science(Information Systems Engineering)(with minimum CGPA 2.5000)^ \n\nOR\n\nDiploma in Information Technology(Mobile Application Development)(with minimum CGPA 2.5000)^ \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "search_bd8_by_otherIHL",
+         "patterns": ["other ihl requirement for bachelor in software systems development","bachelor in software systems development other ihl requirement","bd8 other"],
+         "responses": [ "Course Name : Bachelor of Information Technology (Honours) in Software Systems Development \n\nEntry requirements(Other IHL) \n------------------------------------- \nRelevant Foundation accredited by MQA \n\nOR \n\nRelevant Diploma (with minimum CGPA 2.5000)^ accredited by MQA \n\n^Graduates with CGPA 2.0001-2.4999 are required to sit and pass a Qualifying Test. \n\n**Grade C and above in AELE0364 English Language conducted by TAR UC is accepted as having fulfilled the English Language requirement for applicants who fail English Language at SPM/O Level/UEC \n\nNote: \na)TAR UC Diploma will be accepted on credit transfer into Bachelor Degree programmes. \nb)Equivalent qualifications/qualifications from other Institution of Higher learning (IHL) will be considered on a case-by-case basis. \n\nYear 1 Intake : For entry qualification with STPM/A Level/UEC/Equivalent \n\nYear 2 Intake : For entry qualification with TAR UC Relevant Diploma"],
+         "context": [""]        
+        },
+        {"tag": "diploma",
+         "patterns": ["Diploma","di","dip","dipl","diplo","diplom","course diploma"],
+         "responses": ["This is the diploma course list we are provided : \n D1. Diploma in Computer Science \n D2. Diploma in Data Science \n D3. Diploma in Information System \n D4. Diploma in Information Technology \n D5. Diploma in Software Engineering \n\nPlease tell me name or course code for more information(exp -- > D1 - 5)"],
+         "context": ["search_diploma_course_by_D2","search_diploma_course_by_D3","search_diploma_course_by_D4","search_diploma_course_by_D5"]
+        },
+        {"tag": "degree",
+         "patterns": ["Degree","deg","degr","degre","course degree"],
+         "responses": ["This is the degree course list we are provided : \n BD1. Management Mathematics with Computing (Bachelor of Science) \n BD2. Interative Software Technology (Bachelor of Computer Science) \n BD3. Software Engineering (Bachelor of Computer Science) \n BD4. Data Science (Bachelor of Computer Science) \n BD5. Enterprise Information Systems (Bachelor of Information Systems) \n BD6. Information Security (Bachelor of Information Technology) \n BD7. Internet Technology (Bachelor of Information Technology) \n BD8. Software Systems Development (Bachelor of Information Technology) \n\nPlease tell me name or course code for more information(exp -- > BD1 - 8)"],
+         "context": ["search_degree_course_by_bd1","search_degree_course_by_bd2","search_degree_course_by_bd3","search_degree_course_by_bd4","search_degree_course_by_bd5","search_degree_course_by_bd6","search_degree_course_by_bd7","search_degree_course_by_bd8"]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, I can't understand you.", "Please give me more info.", "Not sure I understand.","No answer for you."],
+         "context": [""]
+        }
+   ]
+}

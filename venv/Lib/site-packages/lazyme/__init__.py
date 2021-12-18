@@ -1,0 +1,19 @@
+
+from lazyme.dating import daterange, dates_in_quarter
+
+from lazyme.fileio import find_files, open_two
+
+from lazyme.iterate import per_section, per_chunk, per_window
+from lazyme.iterate import zigzag
+
+from lazyme.string import color_print, color_str
+from lazyme.string import deduplicate
+from lazyme.string import remove_text_inside_brackets, remove_html_tags
+
+from lazyme.timing import retry
+
+from lazyme.wikipedia import iter_paragraph as iter_wiki
+
+from lazyme.data import get_content, norvig_bigtxt, getsize
+
+__version__ = '0.0.27'
